@@ -38,4 +38,8 @@ int main() {
   }
 
  // std::cout << magic;
+ return 0;
 }
+
+
+
