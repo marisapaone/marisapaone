@@ -12,16 +12,16 @@ int main (){
 
   std::cin >> user;
 
-  if (user == 1 && computer == 1 || user == 2 && computer == 2 || user == 3 && computer == 3 || user == 4 && computer ==4 || user ==5 && computer ==5) {
+  if (user == computer) {
     std::cout << "Tie!\n";
   }
   else if (user == 2 && computer == 1 || user==3 && computer == 2 || user == 1 && computer == 3 || user == 1 && computer == 4 || user == 4 && computer == 5 || user == 5 && computer ==3 || user == 3 && computer ==4 || user == 4 && computer == 2|| user == 2 && computer == 5 || user == 5 && computer == 1){
     std::cout << user << " beats " << computer;
-    std::cout << "You win!\n";
+    std::cout << " You win!\n";
   }
   else if (computer == 2 && user == 1 || computer == 3 && user ==2 || computer == 1 && user ==3 || computer ==1 && user ==4 || computer == 4 && user ==5 || computer ==5 && user == 3 || computer == 3 && user ==4 || computer == 4 & user ==2 || computer == 2 && user == 5 || computer ==5 && user ==1){
     std::cout << computer << " beats " << user;
-    std::cout << " Computer wins! You loose!";
+    std::cout << " Computer wins! You loose!\n";
   }
   else {
     std::cout << "Invalid entry. Try again.";
