@@ -1,0 +1,51 @@
+
+
+public class BankingProceduralStyle {
+
+	public static void main(String[] args) {
+
+		//creating instance variables
+		
+		int initialDepositA = 5000;
+		int initialDepositB = 5000;
+		String bankNameA = "Bank A ";
+		String bankNameB = "Bank B ";
+		double interestRateA = 0.04;
+		double interestRateB = 0.03;
+		int bankTermA = 3;
+		int bankTermB = 4;
+		double difference = 0;
+		
+		//calculating final value with equation provided
+		
+		double finalValueA = (initialDepositA * (java.lang.Math.pow((1 + interestRateA),bankTermA)));
+		double finalValueB = (initialDepositB * (java.lang.Math.pow((1 + interestRateB),bankTermB)));
+		
+		//printing the bank name and term with initial deposit at their particular interest rates
+	
+		System.out.print(bankNameA + bankTermA + "-year CD of $" + initialDepositA + " at " + (interestRateA*100) + "% rate is worth ");
+		System.out.printf("$%1.2f %n", finalValueA);
+		
+		System.out.print(bankNameB + bankTermB + "-year CD of $" + initialDepositB + " at " + (interestRateB*100) + "% rate is worth ");
+		System.out.printf("$%1.2f %n", finalValueB);
+		
+		//if bankA's final value is better it will print Bank A exceeds Bank B, if bank B is greater it will print bank B exceeds bank A
+		
+		if (finalValueA > finalValueB) {
+			difference = finalValueA - finalValueB;
+			System.out.printf ("Bank A's CD exceeds Bank B by $%1.2f", difference);
+		}
+		
+			
+		else if (finalValueB > finalValueA)	{
+			difference = finalValueB - finalValueA;
+			System.out.printf ("Bank B's CD exceeds Bank A's by $%1.2f", difference);
+		}
+		else {
+			System.out.println ("Bank A's CD is the same as Bank B's CD. Pick either bank.");
+	
+		}
+	}
+
+}
+
