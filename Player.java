@@ -1,9 +1,9 @@
 /**
- * Player.java (Assignment 3, Part 2)
+ * Player.java
  * @Marisa Paone
  */
 
-package cs520.hw3.part2;
+
 
 public class Player {
 	
