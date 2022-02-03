@@ -1,9 +1,9 @@
 /**
- * TeamTest.java (Assignment 3, Part 2)
+ * TeamTest.java
  * @Marisa Paone
  */
 
-package cs520.hw3.part2;
+
 
 import java.io.File;
 
