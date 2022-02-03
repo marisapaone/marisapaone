@@ -1,9 +1,6 @@
 - 👋 Hi, I’m @marisapaone
-- 👀 I’m interested in C++, Python and JavaScript
-- 🌱 I’m currently learning C++ and software development
+- 👀 I’m interested in Java, C++, and Python
+- 🌱 I’m currently learning Java, C++ and software development
 
+I am currently enrolled in a Masters of Science Program at Boston University. Go Terriers!
 
-<!---
-marisapaone/marisapaone is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
