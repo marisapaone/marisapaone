@@ -2,7 +2,7 @@
 
 👷🏻‍ I currently work as a Mechanical Engineer in the MEP Construction Industry based in New York City, NY.
 
-👀 I am interested in Java, C++, Python and Software Development.
+👀 I am interested in Java, Python, SQL, Data Science, Machine Learning, Artificial Intelligence, and Software Development.
 
 🐕 I am currently enrolled in a Masters of Science Program in Software Development at Boston University. Go Terriers!
 
